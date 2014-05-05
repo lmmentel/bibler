@@ -1,13 +1,13 @@
-bibler
-======
+bibler.py
+=========
 
 A small utility python script to perform some basis operations on bibtex_
 bibliography files. The options include:
 
-  * abbreviate the journal name,
-  * discard selected fields on each bibtex entry,
-  * expand abbreviated journal name into full form,
-  * turn journal names into hypertext (links) based on the doi or url entries,
+* abbreviate the journal name,
+* discard selected fields on each bibtex entry,
+* expand abbreviated journal name into full form,
+* turn journal names into hypertext (links) based on the doi or url entries,
 
 Dependencies
 ============
