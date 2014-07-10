@@ -9,7 +9,9 @@ def readme():
 setup(
     author = "Lukasz Mentel",
     author_email = "lmmentel@gmail.com",
-    scripts=['scripts/bibler.py'],
+    scripts=[
+        'scripts/bibler.py',
+        'scripts/strnormalize.py'],
     description = "Script for manipulating bibtex bibliography",
     install_requires = [
         'pybtex >= 0.17',

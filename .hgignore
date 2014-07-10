@@ -1,4 +1,5 @@
 syntax: glob
+bibler.py.egg-info/**
 build/**
 dist/**
 *.pyc
