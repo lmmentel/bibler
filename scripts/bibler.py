@@ -34,6 +34,7 @@ AbbrevDict = {
 "Chemical Society Reviews"                    : "Chem.~Soc.~Rev.",
 "Chemphyschem: A European journal of chemical physics and physical chemistry" : "ChemPhysChem",
 "Collection of Czechoslovak Chemical Communications" : "Collect.~Czech.~Chem.~Commun.",
+"Combinatorial Chemistry \& High Throughput Screening" : "Comb.~Chem.~High Throughput Screening",
 "Computer Physics Communications"             : "Comput.~Phys.~Commun.",
 "International Journal of Quantum CHemistry"  : "Int.~J.~Quantum Chem.",
 "International Reviews in Physical Chemistry" : "Int.~Rev.~Phys.~Chem",
