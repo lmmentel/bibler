@@ -58,6 +58,7 @@ AbbrevDict = {
 "J.~Phys.~B: At.~Mol.~Opt.~Phys.",
 "Journal of the Chemical Society, Faraday Transactions 2: Molecular and Chemical Physics" :
 "J.~Chem.~Soc.,~Faraday Trans. 2",
+"Microporous and Mesoporous Materials"        : "Microporous and Mesoporous Mater.",
 "Molecular Physics"                           : "Mol.~Phys.",
 "Philosophical Magazine"                      : "Philos.~Mag.",
 "Philosophical Transactions of the Royal Society of London" : "Philos.~Trans.~R.~Soc.~London",
