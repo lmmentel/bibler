@@ -76,6 +76,7 @@ AbbrevDict = {
 "Reviews of Modern Physics"                   : "Rev.~Mod.~Phys.",
 "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy" : "Spectrochim.~Acta, Part A",
 "Structural Chemistry"                        : "Struct.~Chem.",
+"Studies in Surface Science and Catalysis"    : "Stud.~Surf.~Sci.~Catal.",
 "The Journal of Physical Chemistry"           : "J.~Phys.~Chem.",
 "The Journal of Physical Chemistry A"         : "J.~Phys.~Chem.~A",
 "The Journal of Physical Chemistry B"         : "J.~Phys.~Chem.~B",
