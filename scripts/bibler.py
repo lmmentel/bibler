@@ -24,6 +24,7 @@ import os
 import re
 
 AbbrevDict = {
+"Acta Crystallographica Section A: Foundations of Crystallography" : "Acta Crystalogr.,~Sect.~A: Found.~Crystalogr.",
 "Advances in Quantum Chemistry"               : "Adv.~Quantum Chem.",
 "Annals of Physics"                           : "Ann.~Phys.",
 "Annalen der Physik"                          : "Ann.~Phys.",
@@ -43,12 +44,15 @@ AbbrevDict = {
 "Journal of Chemical Theory and Computation"  : "J.~Chem.~Theory Comput.",
 "Journal of Computational Chemistry"          : "J.~Comput.~Chem.",
 "Journal of Computational Physics"            : "J.~Comput.~Phys",
+"Journal of Machine Learning Research"        : "J.~Mach.~Learn.~Res.",
 "Journal of Molecular Graphics and Modelling" : "J.~Mol.~Graphics Modell.",
 "Journal of Molecular Graphics \& Modelling"  : "J.~Mol.~Graphics Modell.",
 "Journal of Molecular Structure: THEOCHEM"    : "J.~Mol.~Struct. THEOCHEM",
+"Journal of Physical and Chemical Reference Data" : "J.~Phys.~Chem.~Ref.~Data",
 "Journal of Physical Chemistry"               : "J.~Phys.~Chem.",
 "Journal of Physical Chemistry A"             : "J.~Phys.~Chem.~A",
 "Journal of Physical Chemistry B"             : "J.~Phys.~Chem.~B",
+"Journal of Physical Chemistry C"             : "J.~Phys.~Chem.~C",
 "Journal of Physics A: General Physics"       : "J.~Phys.~A: Gen.~Phys.",
 "Journal of Physics A: Mathematical and General" : "J.~Phys.~A: Math.~Gen.",
 "Journal of Physics A: Mathematical and Theoretical" : "J.~Phys.~A: Math.~Theor.",
@@ -78,10 +82,11 @@ AbbrevDict = {
 "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy" : "Spectrochim.~Acta, Part A",
 "Structural Chemistry"                        : "Struct.~Chem.",
 "Studies in Surface Science and Catalysis"    : "Stud.~Surf.~Sci.~Catal.",
-"The Journal of Physical Chemistry"           : "J.~Phys.~Chem.",
+"The Journal of Chemical Physics"             : "J.~Chem.~Phys.",
 "The Journal of Physical Chemistry A"         : "J.~Phys.~Chem.~A",
 "The Journal of Physical Chemistry B"         : "J.~Phys.~Chem.~B",
-"The Journal of Chemical Physics"             : "J.~Chem.~Phys.",
+"The Journal of Physical Chemistry C"         : "J.~Phys.~Chem.~C",
+"The Journal of Physical Chemistry"           : "J.~Phys.~Chem.",
 "Theoretica Chimica Acta"                     : "Theor.~Chim.~Acta",
 "Theoretical Chemistry Accounts"              : "Theor.~Chem.~Acc.",
 "Transactions of The Faraday Society"         : "Trans.~Faraday Soc.",
@@ -97,7 +102,7 @@ def abbreviate_journalname(journal):
     Abbreviate the journal name based on the entry in the AbbrevsDict.
     '''
 
-    p = re.compile(r'[~\.:\s+]')
+    p = re.compile(r'[~\.,:\s+]')
 
     for key in AbbrevDict.keys():
         if p.sub('', journal.lower()) == p.sub('', key.lower()):
