@@ -1,9 +1,12 @@
 
+''' bibler tools for handling bib files '''
+
 from setuptools import setup
 
 def readme():
-    with open('README.rst') as f:
-        return f.read()
+    '''Return the contents of the README.rst file.'''
+    with open('README.rst') as freadme:
+        return freadme.read()
 
 
 setup(
