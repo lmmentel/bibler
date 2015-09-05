@@ -24,6 +24,7 @@ import os
 import re
 
 AbbrevDict = {
+    "ACS Catalysis"                               : "ACS Catal.",
     "Acta Crystallographica Section A: Foundations of Crystallography" : "Acta Crystalogr.,~Sect.~A: Found.~Crystalogr.",
     "Advanced Materials"                          : "Adv.~Mater.",
     "Advances in Quantum Chemistry"               : "Adv.~Quantum Chem.",
@@ -43,6 +44,7 @@ AbbrevDict = {
     "International Journal of Quantum CHemistry"  : "Int.~J.~Quantum Chem.",
     "International Reviews in Physical Chemistry" : "Int.~Rev.~Phys.~Chem",
     "Journal of the American Chemical Society"    : "J.~Am.~Chem.~Soc.",
+    "Journal of American Chemical Society"        : "J.~Am.~Chem.~Soc.",
     "Journal of Catalysis"                        : "J.~Catal.",
     "Journal of Chemical Education"               : "J.~Chem.~Educ.",
     "Journal of Chemical Physics"                 : "J.~Chem.~Phys.",
