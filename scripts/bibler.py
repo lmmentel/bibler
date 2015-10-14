@@ -62,6 +62,7 @@ AbbrevDict = {
     "Journal of Physical Chemistry A"             : "J.~Phys.~Chem.~A",
     "Journal of Physical Chemistry B"             : "J.~Phys.~Chem.~B",
     "Journal of Physical Chemistry C"             : "J.~Phys.~Chem.~C",
+    "Journal of Physics and Chemistry of Solids"  : "J.~Phys.~Chem.~Solids",
     "Journal of Physics A: General Physics"       : "J.~Phys.~A: Gen.~Phys.",
     "Journal of Physics A: Mathematical and General" : "J.~Phys.~A: Math.~Gen.",
     "Journal of Physics A: Mathematical and Theoretical" : "J.~Phys.~A: Math.~Theor.",
